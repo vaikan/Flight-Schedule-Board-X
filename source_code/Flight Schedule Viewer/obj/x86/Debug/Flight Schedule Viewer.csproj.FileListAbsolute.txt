@@ -1,0 +1,12 @@
+c:\users\acer\documents\visual studio 2010\Projects\Flight Schedule Viewer\Flight Schedule Viewer\bin\Debug\Flight Schedule Viewer.exe
+c:\users\acer\documents\visual studio 2010\Projects\Flight Schedule Viewer\Flight Schedule Viewer\bin\Debug\Flight Schedule Viewer.pdb
+c:\users\acer\documents\visual studio 2010\Projects\Flight Schedule Viewer\Flight Schedule Viewer\obj\x86\Debug\ResolveAssemblyReference.cache
+c:\users\acer\documents\visual studio 2010\Projects\Flight Schedule Viewer\Flight Schedule Viewer\obj\x86\Debug\Flight_Schedule_Viewer.mainForm.resources
+c:\users\acer\documents\visual studio 2010\Projects\Flight Schedule Viewer\Flight Schedule Viewer\obj\x86\Debug\Flight_Schedule_Viewer.Properties.Resources.resources
+c:\users\acer\documents\visual studio 2010\Projects\Flight Schedule Viewer\Flight Schedule Viewer\obj\x86\Debug\GenerateResource.read.1.tlog
+c:\users\acer\documents\visual studio 2010\Projects\Flight Schedule Viewer\Flight Schedule Viewer\obj\x86\Debug\GenerateResource.write.1.tlog
+c:\users\acer\documents\visual studio 2010\Projects\Flight Schedule Viewer\Flight Schedule Viewer\obj\x86\Debug\Flight Schedule Viewer.exe
+c:\users\acer\documents\visual studio 2010\Projects\Flight Schedule Viewer\Flight Schedule Viewer\obj\x86\Debug\Flight Schedule Viewer.pdb
+C:\Users\Acer\Documents\Visual Studio 2010\Projects\Flight Schedule Viewer\Flight Schedule Viewer\bin\Debug\Flight Schedule Viewer.exe.config
+C:\Users\Acer\Documents\Visual Studio 2010\Projects\Flight Schedule Viewer\Flight Schedule Viewer\obj\x86\Debug\ResGen.read.1.tlog
+C:\Users\Acer\Documents\Visual Studio 2010\Projects\Flight Schedule Viewer\Flight Schedule Viewer\obj\x86\Debug\ResGen.write.1.tlog
