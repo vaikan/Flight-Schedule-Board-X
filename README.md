@@ -1,4 +1,3 @@
-
 Flight Schedule Viewer, Add-On by Saurav Pokhrel
 
                             
@@ -25,6 +24,7 @@ operation of the application.
 
 -----------------------------------------------
 -----------------------------------------------
-Enjoy
+Enjoy,
+---------------
 Saurav Pokhrel
 
