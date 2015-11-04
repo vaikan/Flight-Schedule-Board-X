@@ -71,13 +71,6 @@ namespace Flight_Schedule_Viewer
             public String parking;
         };
 
-        //[StructLayout(LayoutKind.Sequential, CharSet = CharSet.Ansi, Pack = 1)]
-        //struct Struct2
-        //{
-        //    [MarshalAs(UnmanagedType.ByValTStr, SizeConst = 8)]
-        //    public String curairport;
-        //};
-
         public mainForm()
         {
             InitializeComponent();
@@ -141,7 +134,6 @@ namespace Flight_Schedule_Viewer
                 lstSystemLog1.Items.Clear();
                 lstSystemLog1.Items.Add(DateTime.Now + "  "+"Connection could not be established.");
                 lstSystemLog1.Items.Add(DateTime.Now + "  " +"Please ensure that Flight Simulator X is open.");
-                //MessageBox.Show("Connection could not be established. Please ensure that Flight Simulator X is open and running."); 
             }
         }
 
@@ -161,7 +153,7 @@ namespace Flight_Schedule_Viewer
 
         private void btSearch_Click(object sender, EventArgs e)
         {
-            //this section is used for searching the airline operation in the airport using a search keyword//
+            //this section is used for searching the airline operation in the airport using a search keyword
             
             string searchtext = tbSearch.Text;  
             MySqlDataAdapter DA = new MySqlDataAdapter();
@@ -190,7 +182,7 @@ namespace Flight_Schedule_Viewer
                 
             }
 
-            //this section is used for searching the airline's flight schedules in the airport using a search keyword//
+            //this section is used for searching the airline's flight schedules in the airport using a search keyword
             else if (rbFlightSchedule.Checked && searchtext != null)
             {
                 
@@ -247,14 +239,12 @@ namespace Flight_Schedule_Viewer
             }           
         }
         
-        
         // Set up all the SimConnect related data definitions and event handlers
         private void initDataRequest()
         {
             try
             {
                 // listen to connect and quit msgs
-                
                 simconnect.OnRecvQuit += new SimConnect.RecvQuitEventHandler(simconnect_OnRecvQuit);
 
                 // listen to other unexpected exceptions
@@ -267,7 +257,6 @@ namespace Flight_Schedule_Viewer
                 simconnect.AddToDataDefinition(DEFINITIONS.Struct1, "AI TRAFFIC STATE", null, SIMCONNECT_DATATYPE.STRING32, 0.01f, SimConnect.SIMCONNECT_UNUSED);
                 simconnect.AddToDataDefinition(DEFINITIONS.Struct1, "ATC Id", null, SIMCONNECT_DATATYPE.STRING32, 0.0f, SimConnect.SIMCONNECT_UNUSED);
                 simconnect.AddToDataDefinition(DEFINITIONS.Struct1, "ATC Airline", null, SIMCONNECT_DATATYPE.STRING32, 0.0f, SimConnect.SIMCONNECT_UNUSED);
-                
                 simconnect.AddToDataDefinition(DEFINITIONS.Struct1, "AI TRAFFIC ETA", "seconds", SIMCONNECT_DATATYPE.INT32, 0.01f, SimConnect.SIMCONNECT_UNUSED);
                 simconnect.AddToDataDefinition(DEFINITIONS.Struct1, "AI TRAFFIC ETD", "seconds", SIMCONNECT_DATATYPE.INT32, 0.01f, SimConnect.SIMCONNECT_UNUSED);
                 
@@ -322,15 +311,13 @@ namespace Flight_Schedule_Viewer
                     gridFlightViewer.Columns[3].Name = "From Airport";
                     gridFlightViewer.Columns[4].Name = "To Airport";
                     gridFlightViewer.Columns[5].Name = "Departure Time";
-                    //gridFlightViewer.Columns[6].Name = "Arrival Time";
                     gridFlightViewer.Columns[6].Name = "Flight Status";
                     
                     //exclude user aircraft and its data 
                     if (s1.etd !=0 && s1.eta !=0)
                     {
-                        
                         TimeSpan arr = TimeSpan.FromSeconds(s1.eta);
-                                        
+                        
                         string arrs = string.Format("{0:D2}h:{1:D2}m:{2:D2}s",
                                                 arr.Hours,
                                                 arr.Minutes,
@@ -344,7 +331,6 @@ namespace Flight_Schedule_Viewer
                                                 dept.Seconds);
                         
                         //change all AI Statuses to make it understandable by the user.
-
                         if (s1.aicurstatus == "sleep")
                         {
                             s1.aicurstatus = "At Gate";
