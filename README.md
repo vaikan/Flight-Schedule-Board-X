@@ -1,30 +1,11 @@
-Flight Schedule Viewer, Add-On by Saurav Pokhrel
+## Flight Schedule Board X, 
+### Add-On for MS Flight Simulator X by Saurav Pokhrel
 
-                            
-PLEASE READ ALL INSTRUCTIONS CAREFULLY BEFORE INSTALLING
+Flight Schedule Board X is an FSX add-on, developed as part of my University Project.
+Since there are not many open-source add-ons for FSX (and also PREPAR3D), I am releasing the code
+here in GitHub, so that any one who is interested in this project can contribute to it or
+fork it to make a newer, better version of the Flight Schedule Board X.
 
----------------------------------------------------------
----------------------------------------------------------
-
-Installation:
-- Open the Project folder inside the application folder.
-- Click on the setup.exe.
-- Installation process will start.
-- Open the application when the appliation is installed.
-
-Please note that .NET Framework 4.0 is required for the application to operate.
-
-Uninstall: Simply remove/delete the executable file from the disk.
-
-----------------------------------------------------------
-----------------------------------------------------------
-
-Please see the user manual for more information on installation and 
-operation of the application.
-
------------------------------------------------
------------------------------------------------
-Enjoy,
----------------
-Saurav Pokhrel
+**Author:**
+**Saurav Pokhrel**
 
